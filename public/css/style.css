@@ -1,0 +1,8 @@
+.login-box{    
+    width: 400px;
+    text-align: center;
+    margin: 50px auto;
+}
+button{
+    margin-right: 10px !important;
+}

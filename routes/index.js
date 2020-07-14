@@ -10,13 +10,13 @@ router.get('/', (req, res) => {
 //@desc login/user
 //@route GET /
 router.get('/login', (req, res) => {
-  res.render('login');
+  res.render('login', {layout: 'login'});
 });
 
 //@desc login/franchise
 //@route GET /
 router.get('/franchise-login', (req, res) => {
-  res.render('franchise-login');
+  res.render('franchise-login', {layout: 'login'});
 });
 
 module.exports = router;
